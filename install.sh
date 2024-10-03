@@ -9,7 +9,7 @@ if [[ $1 == "nodeunblocker.com" ]]; then
   cd ..
 elif [[ $1 == "Velocity" ]]; then
   echo "Installing Velocity"
-  gh repo clone cohenerickson/Velocity
+  gh repo clone RohanSalem/Velocity
   cd Velocity
   npm install
   npm run build
